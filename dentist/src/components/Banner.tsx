@@ -25,9 +25,8 @@ export default function Banner () {
             onClick={()=>{
                 setPicNum((picNum+1)%4)
             }}/>
-
-        <h1>where every event finds its venue</h1>
-        <p>Discover the perfect space for your special moments. Whether it's a wedding, conference, or private party, we help you find the ideal venue with ease.</p>
+        <h1>where every smile finds its care</h1>
+        <p>Book your perfect dental appointment effortlessly and keep your smile shining bright!</p>
 
         {
             session? <div className="z-50 absolute top-8 right-10 text-cyan-400 text-3xl font-semibold">Welcome {session.user?.data.name}</div>
